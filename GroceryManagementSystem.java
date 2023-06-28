@@ -92,13 +92,13 @@ public class GroceryManagementSystem {
             System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
                     System.out.print("Enter the product ID: ");
                     int productId = scanner.nextInt();
-                    scanner.nextLine(); // Consume the newline character
+                    scanner.nextLine();
                     System.out.print("Enter the product name: ");
                     String name = scanner.nextLine();
                     System.out.print("Enter the product price: ");
